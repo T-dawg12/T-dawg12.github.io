@@ -1,1 +1,19 @@
-
+body{
+  padding: 25px;
+}
+.biographie {
+	background-image:url("https://climbinghouse.com/wp-content/uploads/2023/05/man_climbing_up_rock.jpg");
+	background-size:cover;
+}
+.voyage {
+	background-image:url("https://back.voyages.carrefour.fr/admin/TS/fckUserFiles/Content_Image/B2C/650x400/650x400_avion_ciel.webp");
+  background-size:cover;
+}
+.poeme {
+	background-image:url("https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2019/02/classic-lit-.jpg?fit=1024%2C768&ssl=1&w=640");
+  background-size:cover;
+}
+.bibliographie {
+	background-image:url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip");
+  background-size:cover;
+}
