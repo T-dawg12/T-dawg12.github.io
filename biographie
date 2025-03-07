@@ -7,11 +7,6 @@
 		<meta charset="UTF-8">
 		<title>T stechy adventures</title>
 		<link rel="stylesheet" href="styles.css">
-		<style>
-		  body {
-		    text-align: ;
-		  }
-		</style>
 	</head>
 	
 	<nav class="navbar">
