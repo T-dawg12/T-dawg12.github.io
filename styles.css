@@ -26,6 +26,7 @@ h1{
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+  border-radius: 7px;
 }
 .navbar a{
   color: #ffffff;
@@ -33,9 +34,11 @@ h1{
   padding: 15px;
   display: block;
   text-align: center;
+  transition: transform 0.3s;
 }
 .navbar a:hover{
   background-color: #3879C1;
+  transform: scale(1.05);
 }
 .navbar li{
   float: left;
