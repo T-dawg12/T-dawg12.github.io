@@ -101,3 +101,7 @@ h1{
     background-color: #80e5ff;
     transition: 0.3s;
 }
+.rounded-img {
+    border-radius: 20px;
+    border: 3px solid #3879C1;
+}
