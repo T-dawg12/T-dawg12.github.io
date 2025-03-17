@@ -1,6 +1,30 @@
 body{
   padding: 25px;
 	font-family:'Calibri', Sans-Serif;
+	background-color:#f5f0e1;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: #2596be;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.navbar a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.navbar a:hover{
+  background-color: #3879C1;
+  transform: scale(1.05);
+}
+.navbar li{
+  float: left;
 }
 .biographie {
 	background-image:url("https://climbinghouse.com/wp-content/uploads/2023/05/man_climbing_up_rock.jpg");
@@ -17,7 +41,7 @@ body{
 }
 .bibliographie {
 	background-image:url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip");
-  	background-size:cover;
+  background-size:cover;
 }
 .biographie2 {
     display: inline-block;
@@ -81,29 +105,6 @@ body{
 }
 h1{
   text-align: center;
-}
-.navbar ul{
-  list-style-type: none;
-  background-color: #2596be;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
-  border-radius: 7px;
-}
-.navbar a{
-  color: #ffffff;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
-  transition: transform 0.3s;
-}
-.navbar a:hover{
-  background-color: #3879C1;
-  transform: scale(1.05);
-}
-.navbar li{
-  float: left;
 }
 .retour-link {
     display: inline-block;
