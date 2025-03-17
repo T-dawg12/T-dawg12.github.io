@@ -17,7 +17,7 @@ body{
 }
 .bibliographie {
 	background-image:url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip");
-  background-size:cover;
+  	background-size:cover;
 }
 .biographie2 {
     display: inline-block;
@@ -165,4 +165,23 @@ h1{
 .rounded-img {
     border-radius: 20px;
     border: 3px solid #3879C1;
+}
+.poem {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    white-space: pre-line;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 4px solid #2596be;
+    margin: 20px 0;
+}
+.source {
+    margin-top: 20px;
+    font-size: 10px;
+}
+.voctor-hugo {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
