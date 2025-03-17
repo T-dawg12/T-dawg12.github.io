@@ -43,3 +43,18 @@ h1{
 .navbar li{
   float: left;
 }
+.retour-link {
+    display: inline-block;
+    background-color: #2596be;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #3879C1;
+    transition: transform 0.3s;
+}
+.retour-link:hover {
+    background-color: #3879C1;
+    transform: scale(1.05);
+}
