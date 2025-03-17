@@ -73,3 +73,31 @@ h1{
     background-color: #3879C1;
     transform: scale(1.05);
 }
+.styled-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #b3ffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.styled-table th {
+    background-color: #2596be;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.styled-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #2596be;
+}
+.styled-table tr:nth-child(even) {
+    background-color: #b3ffff;
+}
+.styled-table tr:hover {
+    background-color: #80e5ff;
+    transition: 0.3s;
+}
