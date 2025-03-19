@@ -2,7 +2,7 @@ body{
   padding: 25px;
 	font-family:'Calibri', Sans-Serif;
 	background-color:#f5f0e1;
-}
+} /* CSS pour la background color et le font du site */
 .navbar ul{
   list-style-type: none;
   background-color: #2596be;
@@ -18,11 +18,11 @@ body{
   display: block;
   text-align: center;
   transition: transform 0.3s;
-}
+} /* CSS pour la navbar */
 .navbar a:hover{
   background-color: #3879C1;
   transform: scale(1.05);
-}
+} /* CSS pour la hover affect du navbar */
 .navbar li{
   float: left;
 }
@@ -31,19 +31,19 @@ body{
 	background-size:cover;
 	border-radius: 10px;
   border: 7px solid #2596be;
-}
+} 
 .voyage {
 	background-image:url("https://back.voyages.carrefour.fr/admin/TS/fckUserFiles/Content_Image/B2C/650x400/650x400_avion_ciel.webp");
   background-size:cover;
   border-radius: 10px;
   border: 7px solid #2596be;
-}
+} 
 .poeme {
 	background-image:url("https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2019/02/classic-lit-.jpg?fit=1024%2C768&ssl=1&w=640");
   background-size:cover;
   border-radius: 10px;
   border: 7px solid #2596be;
-}
+} /
 .bibliographie {
 	background-image:url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip");
   background-size:cover;
@@ -64,7 +64,7 @@ body{
 .biographie2:hover {
     background-color: #3879C1;
     transform: scale(1.05);
-}
+} /* CSS pour la boutton biographie dans le page d'acceuil */
 .voyage2 {
     display: inline-block;
     background-color: #2596be;
@@ -75,11 +75,11 @@ body{
     border-radius: 5px;
     border: 2px solid #2596be;
     transition: transform 0.3s;
-}
+} 
 .voyage2:hover {
     background-color: #3879C1;
     transform: scale(1.05);
-}
+} /* CSS pour la boutton voyage dans le page d'acceuil */
 .poeme2 {
     display: inline-block;
     background-color: #2596be;
@@ -90,11 +90,11 @@ body{
     border-radius: 5px;
     border: 2px solid #2596be;
     transition: transform 0.3s;
-}
+} 
 .poeme2:hover {
     background-color: #3879C1;
     transform: scale(1.05);
-}
+} /* CSS pour la boutton poème dans le page d'acceuil */
 .bibliographie2 {
     display: inline-block;
     background-color: #2596be;
@@ -109,7 +109,7 @@ body{
 .bibliographie2:hover {
     background-color: #3879C1;
     transform: scale(1.05);
-}
+} /* CSS pour la boutton bibliographie dans le page d'acceuil */
 h1{
   text-align: center;
 }
@@ -127,7 +127,7 @@ h1{
 .retour-link:hover {
     background-color: #3879C1;
     transform: scale(1.05);
-}
+} /* CSS pour le boutton Retour */
 .insource-link {
     display: inline-block;
     background-color: #2596be;
@@ -142,7 +142,7 @@ h1{
 .insource-link:hover {
     background-color: #3879C1;
     transform: scale(1.05);
-}
+} /* CSS pour les bouttons "Mon Histoire", "Retour" et "Mes compétances" dans le page Biographie */
 .styled-table {
     width: 80%;
     margin: 20px auto;
@@ -157,19 +157,16 @@ h1{
     padding: 15px;
     text-align: center;
     font-size: 18px;
-}
+} /* CSS pour le table dans le page Biographie */
 .styled-table td {
     padding: 12px;
     text-align: center;
     border-bottom: 2px solid #2596be;
 }
-.styled-table tr:nth-child(even) {
-    background-color: #b3ffff;
-}
 .styled-table tr:hover {
     background-color: #80e5ff;
     transition: 0.3s;
-}
+} /* hover affect dans le table */
 .rounded-img {
     border-radius: 20px;
     border: 3px solid #3879C1;
@@ -198,19 +195,19 @@ h1{
 	background-size:cover;
 	border-radius: 10px;
   border: 7px solid #2596be;
-}
+} /* CSS pour faire le case croissant sa l'aire belle */
 .baguette {
 	background-image:url("https://www.kingarthurbaking.com/sites/default/files/recipe_legacy/8-3-large.jpg");
   background-size:cover;
   border-radius: 10px;
   border: 7px solid #2596be;
-}
+} /* CSS pour faire le case soupe sa l'aire belle */
 .soupe {
 	background-image:url("https://www.lacuisinedejeanphilippe.com/wp-content/uploads/2017/11/soupe_a_l_oignon.jpg");
   background-size:cover;
   border-radius: 10px;
   border: 7px solid #2596be;
-}
+} /* CSS pour faire le case soupe sa l'aire belle */
 .lieux-table {
   border-radius: 10px;
   border: 7px solid #2596be;
